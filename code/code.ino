@@ -1,11 +1,10 @@
 
- 
-int velocity = 100;       // Default velocity.
-int noteON = 144;         // 144 = 10010000 in binary, note on command.
-int noteOFF = 128;        // 128 = 10000000 in binary, note off command.
-int padCount = 10;        // Number of pads.
-int piezoThreshold = 5;   // Analog threshold for piezo sensing.
-int noteDelay = 100;      // Default note delay.
+const int velocity = 100;       // Default velocity.
+const int noteON = 144;         // 144 = 10010000 in binary, note on command.
+const int noteOFF = 128;        // 128 = 10000000 in binary, note off command.
+const int padCount = 10;        // Number of pads.
+const int piezoThreshold = 5;   // Analog threshold for piezo sensing.
+const int noteDelay = 100;      // Default note delay.
 
 void setup() {
   Serial.begin(115200);
